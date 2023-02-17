@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katana Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="dropdown">
+        <div class="menu-left">
+          <a class="color-menu-edges menu-left-background" href="#">Kontakt</a>
+          <span>
+            tel: 661788873 <br />
+            mail: michalski469@gmail.com
+          </span>
+        </div>
+
+        <div class="menu-middle">
+          <a class="color-menu" href="#katana_basic">Katana Basic</a>
+          <a class="color-menu" href="#katana_practical">Katana Practical</a>
+          <a class="color-menu" href="#katana_damascus">Katana Damascus</a>
+          <a class="color-menu" href="#katana_performance"
+            >Katana Performance</a
+          >
+          <a class="color-menu" href="#katana_special">Katana Special</a>
+          <a class="color-menu" href="#katana_superior">Katana Superior</a>
+        </div>
+        <div class="menu-right">
+          <a
+            id="cart-icon"
+            class="color-menu-edges menu-left-background"
+            href="#cartid"
+            >Koszyk</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="cart">
+      <h4 class="cart-title">Twój Koszyk</h4>
+      <!--cart content-->
+      <div class="cart-content"></div>
+      <!--total-->
+      <div class="total">
+        <div class="total-title">Razem</div>
+        <div class="total-price">0zł</div>
+      </div>
+      <!--buy button-->
+      <button type="button" class="btn-buy">Kup teraz</button>
+      <!--cart close-->
+      <img
+        id="close-cart"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAP9JREFUWEftlmEKwzAIhV9vtp1k28m2nWQ72hAqBGni07TQgf4qRJPPZ0xdcDJbTsaDAvIqUgqVQp4C3vrf36ELgK+XpVkPxUQUugN4AngBeJBQ4ntb/eXbNRZIsvw0uzFQCqNhV0ZdFkg2tQeMoKzvG4Ao7FoEiIVKw8gBUSAPagomC9SDkuTkAqvRZWrrmFFI460a7b4pmBmFRlBpmKOAmCeh221HlSwNlQXa6ibJur3UKagM0Ki1I4/nZtmiQMw7MwUVAWJget1Hl48Fsj9XprUP/7nq+MHAWKVkXNl1/NADQsPWGhSKYUvmjg17ORSQp2QpVAp5CnjrdYc8hX5FzjolAHomqAAAAABJRU5ErkJggg=="
+      />
+    </div>
+
+    <div class="container">
+      <section id="parallax" class="page1 image_samurai">
+        <h1 class="tittle_first">
+          Katana <br />
+          Store
+        </h1>
+      </section>
+
+      <section id="katana_basic" class="page2">
+        <div class="column_left">
+          <h2 class="scrolltitle">Katana Basic</h2>
+          <h3 class="cart-item-tittle">MUSASHI</h3>
+          <div>
+            <ul class="list">
+              <li>
+                Miecz Katana do treningów iaido, kendo, battodo, kenjutsu i
+                ninjutsu, idealny na dekoracje
+              </li>
+              <li>
+                Ostrze MARU KITAE z bohi, wykonane ze stali wysokowęglowej 1045,
+                hartowane przy użyciu glinki
+              </li>
+              <li>konstrukcja full tang w pełni funkcjonalne</li>
+              <li>
+                Czerwona drewniana lakierowana saya, czarne tsukaito i żelazna
+                tsuba
+              </li>
+              <li>Odpowiednie dla amatorów i do lekkich treningów</li>
+              <li>
+                Autentyczna ręczna produkcja. Wszystkie jej części mogą być
+                rozmontowane i zmontowane jak w prawdziwej Katanie
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column_right">
+          <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+              <input type="radio" name="radio-btn" id="radio4" />
+              <input type="radio" name="radio-btn" id="radio5" />
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img
+                  class="cart-img"
+                  src="images/katana_basic1.jpg"
+                  alt="katana"
+                />
+              </div>
+              <div class="slide">
+                <img src="images/katana_basic2.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_basic3.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_basic4.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_basic5.jpg" alt="katana" />
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+              <label for="radio5" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+
+          <div class="container_price_add">
+            <button class="price shop-item-price">529 zł</button>
+            <button class="add_button add-cart">Dodaj do koszyka</button>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section id="katana_practical" class="page3">
+        <div class="column_left">
+          <h2>Katana Practical</h2>
+          <h3 class="cart-item-tittle">MINAMOTO</h3>
+          <div>
+            <ul class="list">
+              <li>
+                Miecz Katana do treningów iaido, kendo, battodo, kenjutsu i
+                ninjutsu, idealny na dekoracje
+              </li>
+              <li>
+                Ostrze Maru kitae z bohi, wykonane ze stali wysokowęglowej 1060,
+                hartowane przy użyciu glinki
+              </li>
+              <li>konstrukcja full tang w pełni funkcjonalne</li>
+              <li>
+                Tsukaito z czerwonej bawełny i tsuba wytworzona na podstawie
+                próbki z okresu Edo
+              </li>
+              <li>
+                Czarna drewniana lakierowana saya, Perfekcyjnie wyważone,
+                odpowiednie dla początkujących i zaawansownych
+              </li>
+              <li>
+                Autentyczna ręczna produkcja. Wszystkie jej części mogą być
+                rozmontowane i zmontowane jak w prawdziwej Katanie
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column_right">
+          <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn2" id="radio21" />
+              <input type="radio" name="radio-btn2" id="radio22" />
+              <input type="radio" name="radio-btn2" id="radio23" />
+              <input type="radio" name="radio-btn2" id="radio24" />
+              <input type="radio" name="radio-btn2" id="radio25" />
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img
+                  class="cart-img"
+                  src="images/katana_practical1.jpg"
+                  alt="katana"
+                />
+              </div>
+              <div class="slide">
+                <img src="images/katana_practical2.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_practical3.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_practical4.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_practical5.jpg" alt="katana" />
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio21" class="manual-btn"></label>
+              <label for="radio22" class="manual-btn"></label>
+              <label for="radio23" class="manual-btn"></label>
+              <label for="radio24" class="manual-btn"></label>
+              <label for="radio25" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <div class="container_price_add">
+            <button class="price shop-item-price">999 zł</button>
+            <button class="add_button">Dodaj do koszyka</button>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section id="katana_damascus" class="page4">
+        <div class="column_left">
+          <h2>Katana Damascus</h2>
+          <h3 class="cart-item-tittle">FUKUSHIMA</h3>
+          <div>
+            <ul class="list">
+              <li>
+                Miecz Katana do treningów iaido, kendo, battodo, kenjutsu i
+                ninjutsu, idealny na dekoracje
+              </li>
+              <li>
+                Ostrze Maru kitae z bohi, wykonane ze stali wysokowęglowej 1060,
+                hartowane przy użyciu glinki
+              </li>
+              <li>
+                konstrukcja full tang w pełni funkcjonalne, odpowiednie do
+                średnio twardych celów
+              </li>
+              <li>
+                Niebieskie tsukaito, prawdziwa czarna skóra płaszczki i ozdobna
+                tsuba
+              </li>
+              <li>Czarna drewniana lakierowana saya</li>
+              <li>
+                Idealnie wyważone. Odpowiednie dla początkujących i
+                zaawansowanych
+              </li>
+              <li>
+                Autentyczna ręczna produkcja. Wszystkie jej części mogą być
+                rozmontowane i zmontowane jak w prawdziwej Katanie
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column_right">
+          <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn3" id="radio31" />
+              <input type="radio" name="radio-btn3" id="radio32" />
+              <input type="radio" name="radio-btn3" id="radio33" />
+              <input type="radio" name="radio-btn3" id="radio34" />
+              <input type="radio" name="radio-btn3" id="radio35" />
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img
+                  class="cart-img"
+                  src="images/katana_damascus1.jpg"
+                  alt="katana"
+                />
+              </div>
+              <div class="slide">
+                <img src="images/katana_damascus2.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_damascus3.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_damascus4.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_damascus5.jpg" alt="katana" />
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio31" class="manual-btn"></label>
+              <label for="radio32" class="manual-btn"></label>
+              <label for="radio33" class="manual-btn"></label>
+              <label for="radio34" class="manual-btn"></label>
+              <label for="radio35" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <div class="container_price_add">
+            <button class="price shop-item-price">1199 zł</button>
+            <button class="add_button">Dodaj do koszyka</button>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section id="katana_performance" class="page5">
+        <div class="column_left">
+          <h2>Katana Performance</h2>
+          <h3 class="cart-item-tittle">KURODA KATANA</h3>
+          <div>
+            <ul class="list">
+              <li>
+                Wysokiej jakości Katana stworzona aby zagwarantować najwyższą
+                jakość podczas treningu
+              </li>
+              <li>
+                Ostrze Maru Kitae z bohi, wykonane ze stali wysokowęglowej 1060,
+                konstrukcja full tang
+              </li>
+              <li>
+                Czarne jedwabne tsukaito, Tsukamaki z Hishigami, srebrne
+                Koshirae
+              </li>
+              <li>Czarna lakierowana, drewniana saya, dostarczona bez sageo</li>
+              <li>Kojiri, Kurikata i Koiguchi wykonane z rogu bawoła</li>
+              <li>
+                Idealnie wyważone. Odpowiednie dla początkujących i
+                zaawansowanych
+              </li>
+              <li>
+                Autentyczna ręczna produkcja. Wszystkie jej części mogą być
+                rozmontowane i zmontowane jak w prawdziwej Katanie
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column_right">
+          <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn4" id="radio41" />
+              <input type="radio" name="radio-btn4" id="radio42" />
+              <input type="radio" name="radio-btn4" id="radio43" />
+              <input type="radio" name="radio-btn4" id="radio44" />
+              <input type="radio" name="radio-btn4" id="radio45" />
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img
+                  class="cart-img"
+                  src="images/katana_performance1.jpg"
+                  alt="katana"
+                />
+              </div>
+              <div class="slide">
+                <img src="images/katana_performance2.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_performance3.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_performance4.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_performance5.jpg" alt="katana" />
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio41" class="manual-btn"></label>
+              <label for="radio42" class="manual-btn"></label>
+              <label for="radio43" class="manual-btn"></label>
+              <label for="radio44" class="manual-btn"></label>
+              <label for="radio45" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <div class="container_price_add">
+            <button class="price shop-item-price">2549 zł</button>
+            <button class="add_button">Dodaj do koszyka</button>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section id="katana_special" class="page6">
+        <div class="column_left">
+          <h2>Katana Special</h2>
+          <h3 class="cart-item-tittle">HANDACHI</h3>
+          <div>
+            <ul class="list">
+              <li>
+                Wysokiej jakości Katana stworzona aby zagwarantować najwyższą
+                jakość podczas treningu
+              </li>
+              <li>
+                Ostrze Maru kitae z bohi, wykonane ze stali wysokowęglowej 1045,
+                konstrukcja full tang
+              </li>
+              <li>
+                Ciemno czerwona lakierowana drewniana saia, beżowe tsukaito,
+                tsuba Aoigata
+              </li>
+
+              <li>Kojiri, Kurikata i Koiguchi wykonane z rogu bawoła</li>
+              <li>
+                Idealnie wyważone. Odpowiednie dla początkujących i
+                zaawansowanych
+              </li>
+              <li>
+                Autentyczna ręczna produkcja. Wszystkie jej części mogą być
+                rozmontowane i zmontowane jak w prawdziwej Katanie
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column_right">
+          <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn5" id="radio51" />
+              <input type="radio" name="radio-btn5" id="radio52" />
+              <input type="radio" name="radio-btn5" id="radio53" />
+              <input type="radio" name="radio-btn5" id="radio54" />
+              <input type="radio" name="radio-btn5" id="radio55" />
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img
+                  class="cart-img"
+                  src="images/katana_special1.jpg"
+                  alt="katana"
+                />
+              </div>
+              <div class="slide">
+                <img src="images/katana_special2.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_special3.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_special4.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_special5.jpg" alt="katana" />
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio51" class="manual-btn"></label>
+              <label for="radio52" class="manual-btn"></label>
+              <label for="radio53" class="manual-btn"></label>
+              <label for="radio54" class="manual-btn"></label>
+              <label for="radio55" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <div class="container_price_add">
+            <button class="price shop-item-price">1999 zł</button>
+            <button class="add_button shop-item-button">
+              Dodaj do koszyka
+            </button>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section id="katana_superior" class="page7">
+        <div class="column_left">
+          <h2>Katana Superior</h2>
+          <h3 class="cart-item-tittle">NOBUNAGA</h3>
+          <div>
+            <ul class="list">
+              <li>
+                Każdy komponent tego Wakizashi czyni go unikalnym oraz wrażenie
+                estetyczne jest niesamowite, odpowiednie do Battodo i twardych
+                celów
+              </li>
+              <li>
+                Bardzo ciężkie i solidne wakizashi idealne dla tych którzy
+                szukają wymagającego miecza do poprawy ich techniki
+              </li>
+              <li>
+                Ostrze MARU KITAE z bohi, wykonane ze stali wysokowęglowej 1095,
+                konstrukcja full tang w pełni funkcjonalne
+              </li>
+
+              <li>
+                Zróżnicowanie utwardzane oraz hartowane z użyciem gliny ostrze,
+                autentyczny hamon Gunome Choji style.
+              </li>
+              <li>
+                Tsuba została wytworzona na podstawie próbki z okresu Edo-Meiji
+              </li>
+              <li>
+                tradycyjna tsuka z HISHIGAMI które gwarantuje lepszy chwyt oraz
+                wytrzymalsze Tsukamaki
+              </li>
+              <li>
+                Czarna drewniana lakierowana saya wysokiej jakości wzmocniona
+                prawdziwym rogiem bawołu
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column_right">
+          <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn6" id="radio61" />
+              <input type="radio" name="radio-btn6" id="radio62" />
+              <input type="radio" name="radio-btn6" id="radio63" />
+              <input type="radio" name="radio-btn6" id="radio64" />
+              <input type="radio" name="radio-btn6" id="radio65" />
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img
+                  class="cart-img"
+                  src="images/katana_superior1.jpg"
+                  alt="katana"
+                />
+              </div>
+              <div class="slide">
+                <img src="images/katana_superior2.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_superior3.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_superior4.jpg" alt="katana" />
+              </div>
+              <div class="slide">
+                <img src="images/katana_superior5.jpg" alt="katana" />
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio61" class="manual-btn"></label>
+              <label for="radio62" class="manual-btn"></label>
+              <label for="radio63" class="manual-btn"></label>
+              <label for="radio64" class="manual-btn"></label>
+              <label for="radio65" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <div class="container_price_add">
+            <button class="shop-item-price price">2999 zł</button>
+            <button class="add_button">Dodaj do koszyka</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
